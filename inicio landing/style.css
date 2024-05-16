@@ -10,6 +10,7 @@
 }    
 
 .contenedor-tarjetas{
+    /*background-color: lightcoral;*/
     display: flex;
     flex-wrap: nowrap;
     flex-flow: column;
@@ -20,21 +21,24 @@
 
 @font-face {
     font-family: 'Gotham-Bold';
-    src: url(/fonts/Gotham-Bold.otf);
+    src: url(/fonts/Gotham-Bold.otf) format('opentype');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Gotham-Black';
-    src: url(/fonts/Gotham-Black.otf);
+    src: url(/fonts/Gotham-Black.otf) format('opentype');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Gotham-Book';
-    src: url(/fonts/Gotham-Book.otf);
-    
+    src: url(/fonts/Gotham-Book.otf) format('opentype');
+    font-display: swap;    
 }
+
 @font-face {
     font-family: 'Garamond';
-    src: url(/fonts/GARAIT.TTF);
-    
+    src: url(/fonts/GARAIT.TTF) format("truetype"); 
+    font-display: swap;
 }
 
 
@@ -151,6 +155,7 @@ h1{
 
 .ytexto{ 
     font-family: "Garamond", serif;
+    font-style: italic;
     width: 150px;
     height: auto;
     padding-top: 85px;
@@ -159,7 +164,7 @@ h1{
 }
 
 .tres{
-    background-color:rgba(217, 217, 217, 0.4);
+    /*background-color:rgba(217, 217, 217, 0.4);*/
     position: relative;
     right: 2rem;
     height: 6.5rem;
@@ -170,7 +175,7 @@ h1{
     height: auto;
     text-align: left;
     padding-top: 0px;
-   
+   /*background-color: red;*/
     margin-left: 50px;
 }
 
@@ -214,5 +219,56 @@ h1{
     color: #000;
 }
 
+.grupo-38{
+    top: 796px;
+    left: 800px;
+    /*background-color: aqua;*/
+    position: absolute;
+}
+
+.contenedor-tarjetas2{
+   /*background-color: greenyellow;*/
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: left;
+}
+
+.seccion-2{
+   /* background-color: blue;*/
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    padding: 5px;
+}
+
+.animate{
+    /*background-color: purple;*/
+    margin-right: 259px;
+}
+
+.primerbullet{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+   /* background-color: turquoise;*/
+}
+
+.linea10{
+   /* background-color: red;*/
+    width: 2px;
+    height: 89px;
+}
+
+.textobullet{
+    /*background-color: gold;*/
+    font-family: 'Gotham-Black', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    width: 180px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
 
 }
